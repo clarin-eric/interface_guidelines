@@ -1,0 +1,173 @@
+@import "../bootstrap/css/bootstrap.css";
+@import "../font-awesome/css/font-awesome.css";
+body {
+  font-family: "Source Sans Pro", Calibri, Arial, Helvetica, sans-serif;
+  font-size: 180%;
+  line-height: 1.5em;
+  font-weight: 400;
+  color: #333333;
+  background-color: #F7F7F7;
+}
+.clarin-logo {
+  background: no-repeat url('images/CLARIN-Logo16-a.jpg');
+}
+.clarin-logo-with-text {
+  background: no-repeat url('images/CLARIN-Logo16-b.jpg');
+}
+.clarin-logo-with-text-large {
+  background: no-repeat url('images/CLARIN-Logo16-c.jpg');
+}
+.base-heading {
+  font-family: 'Source Sans Pro', Calibri, Arial, Helvetica, sans-serif;
+  color: #A2C037;
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 1.1em;
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Source Sans Pro', Calibri, Arial, Helvetica, sans-serif;
+  color: #A2C037;
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 1.1em;
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
+}
+h2 {
+  font-size: 1.5em !important;
+}
+h3 {
+  font-size: 1.2em !important;
+}
+h4 {
+  font-size: 1em !important;
+}
+h5 {
+  font-size: 0.8em !important;
+}
+h6 {
+  font-size: 0.5em !important;
+}
+a {
+  color: #0080AA;
+  text-decoration: none;
+}
+a:visited {
+  color: #3399BB;
+}
+a:hover {
+  color: #333333;
+  text-decoration: underline;
+}
+.btn {
+  border-radius: 0px !important;
+}
+.btn.btn-clarin-primary {
+  color: #FFFFFF;
+  background: #A2C037;
+  margin: 1em;
+  padding: 0.5em 1em;
+  border: 0;
+  font-size: 1em;
+  font-family: 'Source Sans Pro', Calibri, Arial, Helvetica, sans-serif;
+}
+.btn.btn-clarin-primary:hover {
+  background: #C7D987;
+  color: #555555;
+}
+nav.nav-main ul li {
+  background: #0080AA;
+  margin: 0.2em 0;
+  padding: 0.25em 1em;
+  max-width: 12em;
+  list-style-type: none;
+  float: left;
+  border-right: 1px solid #FFFFFF;
+}
+nav.nav-main ul li a {
+  color: #FFFFFF;
+}
+nav.nav-main ul li a:hover {
+  text-decoration: none;
+  color: #555555;
+}
+nav.nav-main ul li:hover {
+  background: #99CCDD;
+}
+.clr1 {
+  color: #07426E;
+}
+.clr1.clr-80 {
+  color: #39688B;
+}
+.clr1.clr-60 {
+  color: #6A8EA8;
+}
+.clr1.clr-40 {
+  color: #9CB3C5;
+}
+.clr2 {
+  color: #0080AA;
+}
+.clr2.clr-80 {
+  color: #3399BB;
+}
+.clr2.clr-60 {
+  color: #66B3CC;
+}
+.clr2.clr-40 {
+  color: #99CCDD;
+}
+.clr3 {
+  color: #A2C037;
+}
+.clr3.clr-80 {
+  color: #B5CD5F;
+}
+.clr3.clr-60 {
+  color: #C7D987;
+}
+.clr3.clr-40 {
+  color: #DAE6AF;
+}
+.clr1-bg {
+  background-color: #07426E;
+}
+.clr2-bg {
+  background-color: #0080AA;
+}
+.clr3-bg {
+  background-color: #A2C037;
+}
+.pattern-background {
+  background: no-repeat url('images/Clarin-patroon3green1.png');
+  border: 1px dashed #CCCCCC;
+  background-repeat: repeat;
+  background-position: 10px 110px;
+  max-width: 920px;
+  margin-top: 50px;
+  padding: 15px;
+}
+blockquote {
+  font-family: "Roboto Slab";
+  font-weight: normal;
+  max-width: 180px;
+  text-align: center;
+  font-size: 28px;
+  background: transparent;
+  color: #A2C037;
+  line-height: 1.3;
+}
