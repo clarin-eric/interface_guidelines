@@ -9,13 +9,13 @@ body {
   background-color: #F7F7F7;
 }
 .clarin-logo {
-  background: no-repeat url('images/CLARIN-Logo16-a.jpg');
+  background: no-repeat url('../images/CLARIN-Logo16-a.jpg');
 }
 .clarin-logo-with-text {
-  background: no-repeat url('images/CLARIN-Logo16-b.jpg');
+  background: no-repeat url('../images/CLARIN-Logo16-b.jpg');
 }
 .clarin-logo-with-text-large {
-  background: no-repeat url('images/CLARIN-Logo16-c.jpg');
+  background: no-repeat url('../images/CLARIN-Logo16-c.jpg');
 }
 .base-heading {
   font-family: 'Source Sans Pro', Calibri, Arial, Helvetica, sans-serif;
@@ -153,7 +153,7 @@ nav.nav-main ul li:hover {
   background-color: #A2C037;
 }
 .pattern-background {
-  background: no-repeat url('images/Clarin-patroon3green1.png');
+  background: no-repeat url('../images/Clarin-patroon3green1.png');
   border: 1px dashed #CCCCCC;
   background-repeat: repeat;
   background-position: 10px 110px;
