@@ -51,23 +51,29 @@ body {
     line-height: 1.5em;
     font-weight: 400;
     color: @body-text-color;
-    background-color: @body-background-color;
+    //background-color: @body-background-color;
 }
 
 // CLARIN LOGO
 
-.clarin-logo {
-	.background-image('CLARIN-Logo16-a.jpg');
-}
+.logo {
+    margin-right: 2em;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: contain !important;	
 
-.clarin-logo-with-text {
-	.background-image('CLARIN-Logo16-b.jpg');
+	&.clarin-logo {
+		.background-image('CLARIN-Logo16-a.jpg');
+	}
+	
+	&.clarin-logo-with-text {
+		.background-image('CLARIN-Logo16-b.jpg');
+	}
+	
+	&.clarin-logo-with-text-large {
+		.background-image('CLARIN-Logo16-c.jpg');
+	}
 }
-
-.clarin-logo-with-text-large {
-	.background-image('CLARIN-Logo16-c.jpg');
-}
-
 
 // headings 
 
@@ -130,21 +136,30 @@ a {
 .btn {
 	
 	border-radius: 0px !important;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    border: 0;
+    font-size: @heading-base-font-size - 1;
+    font-family: @font-family;	
 	
 	&.btn-clarin-primary {
 		color: @btn-text-color;
 	    background: @Color-3;
-	    margin: 1em;
-	    padding: 0.5em 1em;
-	    border: 0;
-	    font-size: @heading-base-font-size - 1;
-	    font-family: @font-family;
 	    
 	    &:hover{
 			background: @Color-3-60;
 			color: @btn-hover-color;
 	    }
 	    
+	}
+	
+	&.btn-sm {
+	    padding: 0.3em 0.8em;	
+	}
+
+	&.btn-xs {
+	    padding: 0.1em 0.5em;	
 	}
 		
 }
@@ -175,7 +190,7 @@ nav {
 				  }
 				  
 				  &:hover {
-						background: @Color-2-40;
+						background-color: @Color-2-40;
 				  }
 				  				
 			}
@@ -186,6 +201,77 @@ nav {
 	
 }
 
+
+.sidebar {
+		
+		h2 {
+			color: @Color-3
+		}
+		
+		ul {
+			&.nav {
+				
+				li {
+					
+					color: #FFFFFF;
+					background-color: @Color-3;
+					
+					&:hover {
+						background-color: @Color-3-40;
+					}					
+					
+					a {
+						color: #FFFFFF;
+						
+						&:hover {
+							  text-decoration: none;
+  							  color: @btn-hover-color;
+  							  background-color: @Color-3-40;							
+						}						
+						
+					}
+
+				}
+			}
+		}
+}
+
+.pattern-background {
+	.background-image('Clarin-patroon3green1.png');
+	border: 1px dashed @pattern-background-border-color;
+	background-repeat: repeat;
+	background-position: 10px 110px;
+	max-width: 920px;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+blockquote {
+	font-family: "Roboto Slab";
+    font-weight: normal;
+    max-width: 180px;
+    text-align: center;
+    font-size: 28px;
+    background: transparent;
+    color: @Color-3;
+    line-height: 1.3;
+}
+
+.blocks-view {
+	border: 1px dashed @pattern-background-border-color;
+	margin-bottom: 1em;
+	
+	h2 {
+		color: #FFFFFF;
+    	background-color: @Color-3;
+    	margin: 0;
+    	text-align: center;
+	}
+	h3 {
+    	line-height: 1.3;
+    	margin: 1em 0;	
+	}
+}
 
 // color classes
 
@@ -241,34 +327,16 @@ nav {
 }
 
 .clr1-bg {
+	color: #FFFFFF;
 	background-color: @Color-1;
 }
 
 .clr2-bg {
+	color: #FFFFFF;
 	background-color: @Color-2;
 }
 
 .clr3-bg {
+	color: #FFFFFF;
 	background-color: @Color-3;
-}
-
-.pattern-background {
-	.background-image('Clarin-patroon3green1.png');
-	border: 1px dashed @pattern-background-border-color;
-	background-repeat: repeat;
-	background-position: 10px 110px;
-	max-width: 920px;
-    margin-top: 50px;
-    padding: 15px;
-}
-
-blockquote {
-	font-family: "Roboto Slab";
-    font-weight: normal;
-    max-width: 180px;
-    text-align: center;
-    font-size: 28px;
-    background: transparent;
-    color: @Color-3;
-    line-height: 1.3;
 }

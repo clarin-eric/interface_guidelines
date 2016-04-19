@@ -6,15 +6,20 @@ body {
   line-height: 1.5em;
   font-weight: 400;
   color: #333333;
-  background-color: #F7F7F7;
 }
-.clarin-logo {
+.logo {
+  margin-right: 2em;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: contain !important;
+}
+.logo.clarin-logo {
   background: no-repeat url('../images/CLARIN-Logo16-a.jpg');
 }
-.clarin-logo-with-text {
+.logo.clarin-logo-with-text {
   background: no-repeat url('../images/CLARIN-Logo16-b.jpg');
 }
-.clarin-logo-with-text-large {
+.logo.clarin-logo-with-text-large {
   background: no-repeat url('../images/CLARIN-Logo16-c.jpg');
 }
 .base-heading {
@@ -74,19 +79,26 @@ a:hover {
 }
 .btn {
   border-radius: 0px !important;
-}
-.btn.btn-clarin-primary {
-  color: #FFFFFF;
-  background: #A2C037;
-  margin: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   padding: 0.5em 1em;
   border: 0;
   font-size: 1em;
   font-family: 'Source Sans Pro', Calibri, Arial, Helvetica, sans-serif;
 }
+.btn.btn-clarin-primary {
+  color: #FFFFFF;
+  background: #A2C037;
+}
 .btn.btn-clarin-primary:hover {
   background: #C7D987;
   color: #555555;
+}
+.btn.btn-sm {
+  padding: 0.3em 0.8em;
+}
+.btn.btn-xs {
+  padding: 0.1em 0.5em;
 }
 nav.nav-main ul li {
   background: #0080AA;
@@ -105,7 +117,58 @@ nav.nav-main ul li a:hover {
   color: #555555;
 }
 nav.nav-main ul li:hover {
-  background: #99CCDD;
+  background-color: #99CCDD;
+}
+.sidebar h2 {
+  color: #A2C037;
+}
+.sidebar ul.nav li {
+  color: #FFFFFF;
+  background-color: #A2C037;
+}
+.sidebar ul.nav li:hover {
+  background-color: #DAE6AF;
+}
+.sidebar ul.nav li a {
+  color: #FFFFFF;
+}
+.sidebar ul.nav li a:hover {
+  text-decoration: none;
+  color: #555555;
+  background-color: #DAE6AF;
+}
+.pattern-background {
+  background: no-repeat url('../images/Clarin-patroon3green1.png');
+  border: 1px dashed #CCCCCC;
+  background-repeat: repeat;
+  background-position: 10px 110px;
+  max-width: 920px;
+  margin-top: 50px;
+  padding: 15px;
+}
+blockquote {
+  font-family: "Roboto Slab";
+  font-weight: normal;
+  max-width: 180px;
+  text-align: center;
+  font-size: 28px;
+  background: transparent;
+  color: #A2C037;
+  line-height: 1.3;
+}
+.blocks-view {
+  border: 1px dashed #CCCCCC;
+  margin-bottom: 1em;
+}
+.blocks-view h2 {
+  color: #FFFFFF;
+  background-color: #A2C037;
+  margin: 0;
+  text-align: center;
+}
+.blocks-view h3 {
+  line-height: 1.3;
+  margin: 1em 0;
 }
 .clr1 {
   color: #07426E;
@@ -144,30 +207,14 @@ nav.nav-main ul li:hover {
   color: #DAE6AF;
 }
 .clr1-bg {
+  color: #FFFFFF;
   background-color: #07426E;
 }
 .clr2-bg {
+  color: #FFFFFF;
   background-color: #0080AA;
 }
 .clr3-bg {
+  color: #FFFFFF;
   background-color: #A2C037;
-}
-.pattern-background {
-  background: no-repeat url('../images/Clarin-patroon3green1.png');
-  border: 1px dashed #CCCCCC;
-  background-repeat: repeat;
-  background-position: 10px 110px;
-  max-width: 920px;
-  margin-top: 50px;
-  padding: 15px;
-}
-blockquote {
-  font-family: "Roboto Slab";
-  font-weight: normal;
-  max-width: 180px;
-  text-align: center;
-  font-size: 28px;
-  background: transparent;
-  color: #A2C037;
-  line-height: 1.3;
 }
