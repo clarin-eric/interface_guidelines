@@ -1,0 +1,120 @@
+
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>   
+<link rel="stylesheet" type="text/css" href="../src/assets/css/clarin.css">
+<title>Services</title>
+</head>
+<body>
+
+    <body class="container">
+
+		<div>			
+		    <div class="navbar-header">
+		      <div class="logo clarin-logo" style="width: 100px; height: 100px;"></div>
+		    </div>
+		    <h1>
+				Česílko
+		    </h1>
+	    </div>							
+		<nav class="navbar nav-main">
+			<ul>
+				<li><a
+					href="#" class="lindat-logo"><span>Home</span></a>
+				</li>
+				<li><a
+					href="#"><span>Repository</span></a>
+				</li>
+				<li><a
+					href="#"><span>TreeQuery</span></a>
+				</li>
+				<li><a
+					href="#"><span>Treex</span></a>
+				</li>
+				<li><a
+					href="#"><span>More
+							Apps</span></a></li>
+				<li><a
+					href="#"><span>Events</span></a>
+				</li>
+				<li><a
+					href="#"><span>About</span></a>
+				</li>
+				<li><a href="http://www.clarin.eu/"><span>CLARIN</span></a></li>
+			</ul>
+		</nav>
+
+	<div class="row">
+	    <!-- breadcrumb -->
+	    <ul class="breadcrumb">
+		<li><a href="http://lindat.mff.cuni.cz/">LINDAT/CLARIN</a></li>
+		<li><a href="http://lindat.mff.cuni.cz/services/">Services</a></li>
+		<li class="active">Cesilko</li>
+	    </ul>
+
+		<div>		
+			<div class="col-md-3 sidebar">
+			<ul class="nav nav-stacked">
+			    <li class="active"><a href="./demo.php" class="show-run-icon"> Run</a></li>
+			    <li><a href="./about.php">About</a></li>
+			    <li></i><a href="./api-docs.php">REST API Documentation</a></li>
+			    <li><a class="pull-right signon" href="#" ><i class="icon-user"></i> Login</a></li>			</ul>
+			 </div>					
+			<div class="col-md-9">
+	    	    <p>
+	    Welcome to the demonstration of the <span lang="cs">Česílko</span> project which has been developed
+	    on the <a href="http://ufal.mff.cuni.cz">Institute of Formal and Applied Linguistics</a>.</p>
+
+	    <p>The system <span lang="cs">Česílko</span> was designed as a tool enabling the fast and efficient translation from one source language into many target languages,
+	    which are mutually related. The system receives as its input a high quality human translation of the original into Czech (from any language).
+	    It translates the Czech input into a number of languages related to Czech. The system contains at the moment 5 language pairs, 4 of them only
+	    as experiments, namely Czech into Polish, Lithuanian, Macedonian and Lower Sorbian. Unfortunately, the system cannot be tested on arbitrary
+	    texts for these language pairs due to a small size of all dictionaries. The only working language pair (and at the same time also exploitable
+	    outside of the above mentioned setup) is the fifth one, Czech to Slovak. Similarly to other MT systems, <span lang="cs">Česílko</span>
+	    requires human post-editing. The system is being developed since 1998.</p>
+
+	    <p>The demo is freely available for testing. An explicit written permission of the authors is required for any commercial exploitation of the system.
+	    If you run the demo, you agree that data obtained during testing can be used for further improvements of the systems at UFAL. All comments and reactions are welcome.</p>
+	    
+
+	    <h2 style="text-align:center">Write Your Text</h2>
+
+	    <h3>Czech Input (CZ)</h3>
+
+	    <form action="./demo.php" method="post">
+	    <fieldset style="border: 0px">
+		<label>UTF-8 Input text (up to 5000 characters)</label><br />
+		<textarea id="text" class="form-control" placeholder="Czech Text in UTF-8" name="text" lang="cs" rows="10" cols="30" style="width:98%" maxlength="5000"  required="required"></textarea>
+		<br />
+		<button type="submit" class="btn btn-clarin-primary">Translate</button>
+		<br />
+	    </fieldset>
+	    </form>
+
+
+	    <h3>Slovak Output (SK)</h3>
+
+	    <p style="background-color: #F8F8F8; min-height: 200px; padding: 0.4em; " lang="sk">
+			    </p>
+
+	    <br />
+	    <br />
+
+	</div>
+			</div>
+	    </div>
+	
+	<!-- container ended -->
+
+
+<div class="text-center small">
+    <p>
+      <strong><span>THE LINDAT/CLARIN PROJECT (LM2010013) IS FULLY SUPPORTED BY THE MINISTRY OF EDUCATION, SPORTS</span><br /><span>AND YOUTH OF THE CZECH REPUBLIC UNDER THE PROGRAMME LM OF &quot;LARGE INFRASTRUCTURES&quot;.</span></strong>
+    </p>
+    <p>Copyright (c) 2016 UFAL MFF UK. All rights reserved.</p>
+  </div>
+  
+    </body>
+</html>
+

@@ -170,6 +170,10 @@ blockquote {
   line-height: 1.3;
   margin: 1em 0;
 }
+.form-control {
+  height: 38px;
+  border-radius: 0px;
+}
 .clr1 {
   color: #07426E;
 }
